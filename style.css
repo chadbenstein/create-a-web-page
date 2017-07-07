@@ -1,0 +1,117 @@
+*{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #005b98;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #ffffff;
+  vertical-align: bottom;
+}
+
+a{
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+h2{
+  text-align: center;
+}
+
+h4{
+  text-decoration: none;
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.content{
+  margin-top: 165px;
+}
+
+.active {
+  background-color: #d91948
+}
+
+.image{
+  vertical-align: bottom;
+}
+
+.description{
+  color: #696969;
+  font-weight: 300;
+}
+
+.logoImage{
+  background-color: white;
+  text-align: center;
+}
+
+.topLine{
+  display: flex;
+}
+
+.secondLine{
+  display: flex;
+}
+
+.thirdLine{
+  display: flex;
+}
+
+.fourthLine{
+  display: flex;
+}
+
+.headshot{
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.namePlate{
+  display: block;
+}
+
+.nameList{
+  display: block;
+}
+
+.nameReel{
+  display:flex;
+}
+
+.highlightReel{
+  padding-left: 25px;
+}
+
+.previous{
+  text-decoration: none;
+}
+
+.next{
+  text-decoration: none;
+  float: right;
+}
+
+.activated{
+  background-color: #A9A9A9;
+}
